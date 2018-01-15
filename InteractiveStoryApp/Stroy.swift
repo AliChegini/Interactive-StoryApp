@@ -20,18 +20,18 @@ enum Story {
     case home
 }
 
-extension Stroy {
+extension Story {
     var artWork: UIImage {
         switch self {
         case .returnTrip: return #imageLiteral(resourceName: "ReturnTrip")
-        case touchDown: #imageLiteral(resourceName: "TouchDown")
-        case homeward: #imageLiteral(resourceName: "Homeward")
-        case rover: #imageLiteral(resourceName: "Rover")
-        case cave: #imageLiteral(resourceName: "Cave")
-        case crate: #imageLiteral(resourceName: "Crate")
-        case monster: #imageLiteral(resourceName: "Monster")
-        case droid: #imageLiteral(resourceName: "Droid")
-        case home: #imageLiteral(resourceName: "Home")
+        case .touchDown: return #imageLiteral(resourceName: "TouchDown")
+        case .homeward: return #imageLiteral(resourceName: "Homeward")
+        case .rover: return #imageLiteral(resourceName: "Rover")
+        case .cave: return #imageLiteral(resourceName: "Cave")
+        case .crate: return #imageLiteral(resourceName: "Crate")
+        case .monster: return #imageLiteral(resourceName: "Monster")
+        case .droid: return #imageLiteral(resourceName: "Droid")
+        case .home: return #imageLiteral(resourceName: "Home")
         }
     }
     

@@ -14,6 +14,7 @@
 		7CB8EFE22005AF2500C2E47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB8EFE02005AF2500C2E47B /* Main.storyboard */; };
 		7CB8EFE42005AF2500C2E47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB8EFE32005AF2500C2E47B /* Assets.xcassets */; };
 		7CB8EFE72005AF2500C2E47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB8EFE52005AF2500C2E47B /* LaunchScreen.storyboard */; };
+		7CF7298D200C8FB90023379C /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7298C200C8FB90023379C /* PageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7CB8EFE32005AF2500C2E47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CB8EFE62005AF2500C2E47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CB8EFE82005AF2500C2E47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF7298C200C8FB90023379C /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				7CB8EFDE2005AF2500C2E47B /* ViewController.swift */,
 				7C2CDCFF200729A3006862EC /* Stroy.swift */,
 				7C2CDD0120072E1C006862EC /* Page.swift */,
+				7CF7298C200C8FB90023379C /* PageController.swift */,
 				7CB8EFE02005AF2500C2E47B /* Main.storyboard */,
 				7CB8EFE32005AF2500C2E47B /* Assets.xcassets */,
 				7CB8EFE52005AF2500C2E47B /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 				7C2CDD00200729A3006862EC /* Stroy.swift in Sources */,
 				7C2CDD0220072E1C006862EC /* Page.swift in Sources */,
 				7CB8EFDD2005AF2500C2E47B /* AppDelegate.swift in Sources */,
+				7CF7298D200C8FB90023379C /* PageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

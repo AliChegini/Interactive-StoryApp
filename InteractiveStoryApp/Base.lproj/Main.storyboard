@@ -25,7 +25,7 @@
                                 <rect key="frame" x="116" y="587" width="143" height="30"/>
                                 <state key="normal" title="Start Your Adventure"/>
                                 <connections>
-                                    <segue destination="RS8-Gi-Byn" kind="show" id="Seo-qy-yPu"/>
+                                    <segue destination="RS8-Gi-Byn" kind="show" identifier="startAdventure" id="Seo-qy-yPu"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -46,11 +46,11 @@
             </objects>
             <point key="canvasLocation" x="888.79999999999995" y="487.10644677661173"/>
         </scene>
-        <!--View Controller-->
+        <!--Page Controller-->
         <scene sceneID="Bh8-wB-EQV">
             <objects>
-                <viewController id="RS8-Gi-Byn" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YHK-v8-AYz">
+                <viewController id="RS8-Gi-Byn" customClass="PageController" customModule="InteractiveStoryApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YHK-v8-AYz" customClass="PageCon">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
